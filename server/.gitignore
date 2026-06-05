@@ -1,0 +1,11 @@
+/node_modules
+/.pnp
+.pnp.*
+
+/build
+
+.env
+.env.local
+.env.production
+.env.development
+.env.test
