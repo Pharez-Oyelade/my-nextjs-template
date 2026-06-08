@@ -1,7 +1,13 @@
 import Hero from "@/components/Hero";
+import Story from "@/components/Story";
 
 const page = () => {
-  return <Hero />;
+  return (
+    <main>
+      <Hero />
+      <Story />
+    </main>
+  );
 };
 
 export default page;
