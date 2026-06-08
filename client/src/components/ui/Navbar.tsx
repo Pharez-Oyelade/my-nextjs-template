@@ -38,7 +38,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   }, [pathname]);
   return (
-    <nav className="bg-background text-foreground flex justify-between items-center shadow-md px-6 py-3">
+    <nav className="bg-background text-foreground flex justify-between items-center shadow-md px-6 py-3 fixed w-full z-50">
       <div className="">
         <h1 className="text-2xl font-bold text-secondary flex items-end gap-1">
           ÀṢÀ
