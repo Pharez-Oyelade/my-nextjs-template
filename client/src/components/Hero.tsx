@@ -3,7 +3,7 @@ import CircularGallery from "./ui/CircularGallery";
 
 const Hero = () => {
   return (
-    <main className="w-full h-screen relative">
+    <section className="w-full h-screen relative">
       {/* <div style={{ height: "90vh", position: "relative", opacity: "0.6" }}>
         <CircularGallery
           bend={6}
@@ -44,7 +44,7 @@ const Hero = () => {
           Book Your Fitting
         </button>
       </div>
-    </main>
+    </section>
   );
 };
 
